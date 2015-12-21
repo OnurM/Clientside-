@@ -10,7 +10,7 @@ var allPrices = document.getElementsByClassName("price");
 var discount = 0.30;
 var today = new Date;
 
-giveMeHappyHourDiscount();
+
 
 function giveMeHappyHourDiscount() {
     if (today.getHours() >= 11 && today.getHours() <= 15) {
@@ -21,19 +21,23 @@ function giveMeHappyHourDiscount() {
     }
 }
 
-//Method calls: Done
+var theSpan = document.getElementsByTagName("span");
 
+//Method calls:
+giveMeHappyHourDiscount();
+addBurgerPictures(theSpan);
 
 //Adjust price function: (add .toFixed(2) for 2 decimals): Done
 
 /*Add pictures function to span:*/
 
-
-var theSpan = document.getElementsByTagName("span");
-for (var i = 0; i < theSpan.length; i++) {
-    var img = document.createElement("img");
-    img.setAttribute("src", "~/../Images/Hamburger.png");
-    theSpan[i].appendChild(img);
+function addBurgerPictures(elements) {
+    
+    for (var i = 0; i < elements.length; i++) {
+        var img = document.createElement("img");
+        img.setAttribute("src", "~/../Images/Hamburger.png");
+        elements[i].appendChild(img);
+    }
 }
 
 
