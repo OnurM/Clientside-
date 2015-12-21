@@ -28,6 +28,16 @@ function giveMeHappyHourDiscount() {
 
 /*Add pictures function to span:*/
 
+
+var theSpan = document.getElementsByTagName("span");
+for (var i = 0; i < theSpan.length; i++) {
+    var img = document.createElement("img");
+    img.setAttribute("src", "~/../Images/Hamburger.png");
+    theSpan[i].appendChild(img);
+}
+
+
+
 /*Add todays offer function. 
 Make price background red. 
 Reduce price by another 20%:*/
