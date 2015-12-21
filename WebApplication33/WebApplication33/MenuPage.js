@@ -8,22 +8,23 @@ var priceFriday = document.getElementById("friday").innerHTML;
 var allPrices = document.getElementsByClassName("price");
 
 var discount = 0.30;
-
-
 var today = new Date;
 
+giveMeHappyHourDiscount();
 
-if (today.getHours() >= 11 && today.getHours() <= 15) {
-    for (var i = 0; i < allPrices.length; i++) {
+function giveMeHappyHourDiscount() {
+    if (today.getHours() >= 11 && today.getHours() <= 15) {
+        for (var i = 0; i < allPrices.length; i++) {
 
-        allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount);
+            allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount);
+        }
     }
 }
 
-//Method calls:
+//Method calls: Done
 
 
-//Adjust price function: (add .toFixed(2) for 2 decimals)
+//Adjust price function: (add .toFixed(2) for 2 decimals): Done
 
 /*Add pictures function to span:*/
 
