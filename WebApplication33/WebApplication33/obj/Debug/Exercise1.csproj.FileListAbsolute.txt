@@ -1,0 +1,6 @@
+C:\Users\Onur\Documents\School\Clientside\Lab2_JS\WebApplication33\WebApplication33\bin\WebApplication33.dll.config
+C:\Users\Onur\Documents\School\Clientside\Lab2_JS\WebApplication33\WebApplication33\bin\WebApplication33.dll
+C:\Users\Onur\Documents\School\Clientside\Lab2_JS\WebApplication33\WebApplication33\bin\WebApplication33.pdb
+C:\Users\Onur\Documents\School\Clientside\Lab2_JS\WebApplication33\WebApplication33\obj\Debug\Exercise1.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Documents\School\Clientside\Lab2_JS\WebApplication33\WebApplication33\obj\Debug\WebApplication33.dll
+C:\Users\Onur\Documents\School\Clientside\Lab2_JS\WebApplication33\WebApplication33\obj\Debug\WebApplication33.pdb
