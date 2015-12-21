@@ -1,0 +1,40 @@
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\csc.exe
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\vbc.exe
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\Plenty of Exercise 1.dll.config
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\Plenty of Exercise 1.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\Plenty of Exercise 1.pdb
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\obj\Debug\Exercise Of Plenty 1.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\obj\Debug\Plenty of Exercise 1.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Plenty of Exercise 1\Plenty of Exercise 1\obj\Debug\Plenty of Exercise 1.pdb
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\csc.exe
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\vbc.exe
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\Plenty of Exercise 1.dll.config
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\Plenty of Exercise 1.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\Plenty of Exercise 1.pdb
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\obj\Debug\Exercise Of Plenty 1.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\obj\Debug\Plenty of Exercise 1.dll
+C:\Users\Onur\Documents\School\Clientside\Clientside to Git\Clientside-labbar\Plenty of Exercise 1\Plenty of Exercise 1\obj\Debug\Plenty of Exercise 1.pdb
