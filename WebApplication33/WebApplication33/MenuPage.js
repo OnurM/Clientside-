@@ -1,5 +1,24 @@
 ﻿//happy hour logic:
+var priceMonday = document.getElementById("monday").innerHTML;
+var priceTuesday = document.getElementById("tuseday").innerHTML;
+var priceWednesday = document.getElementById("wednesday").innerHTML;
+var priceThursday = document.getElementById("thursday").innerHTML;
+var priceFriday = document.getElementById("friday").innerHTML;
 
+var allPrices = document.getElementsByClassName("price");
+
+var discount = 0.30;
+
+
+var today = new Date;
+
+
+if (today.getHours() >= 11 && today.getHours() <= 15) {
+    for (var i = 0; i < allPrices.length; i++) {
+
+        allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount);
+    }
+}
 
 //Method calls:
 
