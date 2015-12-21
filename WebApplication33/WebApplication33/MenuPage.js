@@ -1,21 +1,12 @@
 ﻿//happy hour logic:
-var priceMonday = document.getElementById("monday").innerHTML;
-var priceTuesday = document.getElementById("tuseday").innerHTML;
-var priceWednesday = document.getElementById("wednesday").innerHTML;
-var priceThursday = document.getElementById("thursday").innerHTML;
-var priceFriday = document.getElementById("friday").innerHTML;
-
 var allPrices = document.getElementsByClassName("price");
 
 var discount = 0.30;
 var today = new Date;
 
-
-
 function giveMeHappyHourDiscount() {
     if (today.getHours() >= 11 && today.getHours() <= 15) {
         for (var i = 0; i < allPrices.length; i++) {
-
             allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount);
         }
     }
@@ -26,13 +17,13 @@ var theSpan = document.getElementsByTagName("span");
 //Method calls:
 giveMeHappyHourDiscount();
 addBurgerPictures(theSpan);
+calculateTodaysExtraDiscount();
 
-//Adjust price function: (add .toFixed(2) for 2 decimals): Done
+//Adjust price function: (add .toFixed(2) for 2 decimals):
 
 /*Add pictures function to span:*/
-
 function addBurgerPictures(elements) {
-    
+
     for (var i = 0; i < elements.length; i++) {
         var img = document.createElement("img");
         img.setAttribute("src", "~/../Images/Hamburger.png");
@@ -41,10 +32,17 @@ function addBurgerPictures(elements) {
 }
 
 
-
 /*Add todays offer function. 
 Make price background red. 
 Reduce price by another 20%:*/
+
+function calculateTodaysExtraDiscount() {
+    var weekDays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    var todaysExtraDiscount = document.getElementById(weekDays[today.getDay()]).innerHTML;
+    todaysExtraDiscount = Number(todaysExtraDiscount) - (Number(todaysExtraDiscount) * 0.2);
+    document.getElementById(weekDays[today.getDay()]).innerHTML = todaysExtraDiscount.toFixed(2);
+}
+
 
 /*Stretch exercises: (increasing tuffness for each number!)
 
