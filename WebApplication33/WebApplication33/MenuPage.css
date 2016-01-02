@@ -57,3 +57,7 @@ h3 {
     -o-transform: rotate(-10deg);
     transform: rotate(-10deg);
 }
+
+.todaysOfferColor {
+    background-color: red;
+}

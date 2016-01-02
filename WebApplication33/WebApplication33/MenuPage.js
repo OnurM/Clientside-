@@ -17,7 +17,7 @@ var theSpan = document.getElementsByTagName("span");
 //Method calls:
 giveMeHappyHourDiscount();
 addBurgerPictures(theSpan);
-calculateTodaysExtraDiscount();
+todaysOffer();
 
 //Adjust price function: (add .toFixed(2) for 2 decimals):
 
@@ -36,11 +36,14 @@ function addBurgerPictures(elements) {
 Make price background red. 
 Reduce price by another 20%:*/
 
-function calculateTodaysExtraDiscount() {
+function todaysOffer() {
     var weekDays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
     var todaysExtraDiscount = document.getElementById(weekDays[today.getDay()]).innerHTML;
     todaysExtraDiscount = Number(todaysExtraDiscount) - (Number(todaysExtraDiscount) * 0.2);
     document.getElementById(weekDays[today.getDay()]).innerHTML = todaysExtraDiscount.toFixed(2);
+
+    var todaysSpecielOffer = document.getElementById(weekDays[today.getDay()]);
+    todaysSpecielOffer.className += " " + "todaysOfferColor";
 }
 
 
