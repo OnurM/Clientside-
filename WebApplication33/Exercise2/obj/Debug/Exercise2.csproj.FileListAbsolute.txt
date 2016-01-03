@@ -1,0 +1,6 @@
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Clientside git repo\Clientside-\WebApplication33\Exercise2\bin\Exercise2.dll.config
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Clientside git repo\Clientside-\WebApplication33\Exercise2\bin\Exercise2.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Clientside git repo\Clientside-\WebApplication33\Exercise2\bin\Exercise2.pdb
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Clientside git repo\Clientside-\WebApplication33\Exercise2\obj\Debug\Exercise2.csprojResolveAssemblyReference.cache
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Clientside git repo\Clientside-\WebApplication33\Exercise2\obj\Debug\Exercise2.dll
+C:\Users\Onur\Documents\Visual Studio 2015\Projects\Clientside\Clientside git repo\Clientside-\WebApplication33\Exercise2\obj\Debug\Exercise2.pdb

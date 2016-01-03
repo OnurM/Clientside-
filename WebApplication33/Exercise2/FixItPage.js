@@ -1,15 +1,15 @@
 ﻿/*
-
 For each of the following aplicable exercise below you should present a box on the page 
 with an alert that shows the result when the box is clicked!
 
 ###Window object at page 124:###
-1. Link the script with FixIt.hmtl - V
+1. Link the script with FixIt.hmtl
 
-Hoppa över denna: 2. Add som tags that doesn't change the visual part of the paragraph. - V
+2. Add som tags that doesn't change the visual part of the paragraph.
 
 3.Play with the properties at page 124 in the book. 
   Use properties creatively to display things at the html page
+  
 
 
 4.Add a stylesheet that displays the changed words in fat font and in red.
@@ -40,3 +40,28 @@ Bonus exercises:
  and look at JS String, JS Number, JS Math and JS Date
 
 */
+
+
+//Uppgift 2-5
+window.document.write("Using window.location to get the current URL and writing it out with window.document.write():  " + window.location);
+
+(function showMeTheChangedWords() {
+    var changedWords = document.getElementsByClassName("changedText");
+    for (var i = 0; i < changedWords.length; i++) {
+        changedWords[i].className += " " + "changeMyWords";
+    }
+})();
+
+alert("Detta görs med hjälp av window.alert()");
+
+if (confirm("Öppnar aftonbladet!!!")) {
+    window.open("http://aftonbladet.se");
+}
+
+if (confirm("Printa sidan")) {
+    window.print();
+}
+
+
+
+
