@@ -70,6 +70,21 @@ document.write("This documents domain is: " + document.domain + "<br>");
 
 
 //Uppgift 7-9
+var arrayFromParagraph = document.getElementById("makeMeAnArray").innerHTML.trim().split(" ");
+
+var toTrim = "               "+ arrayFromParagraph[0];
+
+console.log(arrayFromParagraph.length);
+console.log(arrayFromParagraph[0].toUpperCase());
+console.log(arrayFromParagraph[0].toLowerCase());
+console.log(arrayFromParagraph[0].charAt(5));
+console.log(arrayFromParagraph[0].indexOf("l"));
+console.log(arrayFromParagraph.lastIndexOf("n"));
+console.log(arrayFromParagraph[0].substring(0, 2));
+console.log("Before: " + toTrim + ", After: " + toTrim.trim());
+console.log(arrayFromParagraph[0].replace("r", "s"));
+
+console.log(isNaN(arrayFromParagraph[4]));
 
 
 
