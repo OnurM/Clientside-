@@ -43,7 +43,7 @@ Bonus exercises:
 
 
 //Uppgift 2-5
-window.document.write("Using window.location to get the current URL and writing it out with window.document.write():  " + window.location);
+window.document.write("Using window.location to get the current URL and writing it out with window.document.write():  " + window.location + "<br>");
 
 (function showMeTheChangedWords() {
     var changedWords = document.getElementsByClassName("changedText");
@@ -61,6 +61,16 @@ if (confirm("Öppnar aftonbladet!!!")) {
 if (confirm("Printa sidan")) {
     window.print();
 }
+
+//Uppgift 6
+document.write("Title of this document: " + document.title + "<br>");
+document.write("This document was last modified: " + document.lastModified + "<br>");
+document.write("This documents URL is: " + document.URL + "<br>");
+document.write("This documents domain is: " + document.domain + "<br>");
+
+
+//Uppgift 7-9
+
 
 
 
