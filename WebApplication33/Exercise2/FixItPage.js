@@ -88,5 +88,31 @@ console.log(isNaN(arrayFromParagraph[4]));
 
 
 
+//Uppgift 10 - 11
+console.log(Math.ceil(arrayFromParagraph[4]));
+arrayFromParagraph[2] = 3.14;
+console.log(Math.round(arrayFromParagraph[2]));
 
 
+// ** Uppgift 12-13 **
+
+//idag
+today = new Date();
+
+var birthday = new Date(today.getFullYear(), 07, 31) //sätter datumet till 31 Augusti
+
+if (today.getMonth() == 11 && today.getDate() > 25) //om min födelsedag redan har passerat i år
+    birthday.setFullYear(birthday.getFullYear() + 1); //räkna ut nästa födelsedag
+
+//räkna ut hur många millisekunder det går på ett dygn
+var oneDay = 1000 * 60 * 60 * 24;
+
+//räkna ut tidsskillnaden (i dagar) på de två olika datumen
+var daysLeft = Math.ceil((birthday.getTime() - today.getTime()) / (oneDay));
+
+//det går 1440 minuter på ett dygn
+var minutesLeft = Math.ceil(daysLeft * 1440);
+
+document.getElementById("birthdayPresentation").innerHTML = daysLeft + " dagar kvar till nästa födelsedag (08/31) <br/>";
+
+document.getElementById("minutePresentation").innerHTML = minutesLeft + " minuter kvar till nästa födelsedag (08/31) <br/> <br/>";
