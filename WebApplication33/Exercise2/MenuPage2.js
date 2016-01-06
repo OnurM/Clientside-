@@ -100,6 +100,23 @@ var pizzas = [mondayPizza, tuesdayPizza, wednesdayPizza, thursdayPizza, fridayPi
 
 addToPage(pizzas, "~/../Images/Pizza.png", "pizzaPlace");
 
+//Uppgift 5
+var mondaySub = new Product("Monday Sub", "Big", 13.30, "Monday");
+var tuesdaySub = new Product("Tuesday Sub", "Big", 13.33, "Tuesday");
+var wednesdaySub = new Product("Wednesday Sub", "Small", 11.90, "Wednesday");
+var thursdaySub = new Product("Thursday Sub", "Medium", 13.75, "Thursday");
+var fridaySub = new Product("Friday Sub", "Big", 13.90, "Friday");
+var saturdaySub = new Product("Saturday Sub", "Medium", 12.75, "Monday");
+var sundaySub = new Product("Sunday Sub", "Big", 13.75, "Sunday");
+
+var subs = [mondaySub, tuesdaySub, wednesdaySub, thursdaySub, fridaySub, saturdaySub, sundaySub];
+
+addToPage(subs, "~/../Images/Subs.png", "subsPlace");
+
+
+
+
+
 
 function addToPage(arrayOfObjects, imageURL, divID) {
     for (var i = 0; i < arrayOfObjects.length; i++) {
