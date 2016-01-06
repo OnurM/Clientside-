@@ -45,6 +45,8 @@ Bonus exercises:
 //Uppgift 2-5
 window.document.write("Using window.location to get the current URL and writing it out with window.document.write():  " + window.location + "<br>");
 
+alert("Den nuvarande X-positionen för musen är: " + window.screenX + ". Y-positionen är:  " + screenY + ". The height of your window is: " + window.innerHeight + " and the width is: " + window.innerWidth + ". You are at: " + window.location);
+
 (function showMeTheChangedWords() {
     var changedWords = document.getElementsByClassName("changedText");
     for (var i = 0; i < changedWords.length; i++) {

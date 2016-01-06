@@ -62,40 +62,67 @@ var sundayBurger = {
     price: 17.70
 }
 
-
 var burgers = [mondayBurger, tuesdayBurger, wednesdayBurger, thursdayBurger, fridayBurger, saturdayBurger, sundayBurger];
 
-for (var burger in burgers) {
-    var article = document.createElement("article");
-    var fieldset = document.createElement("fieldset");
-    var legend = document.createElement("legend");
-    var h3 = document.createElement("h3");
-    var span = document.createElement("span");
-    var div = document.createElement("div");
+addToPage(burgers, "~/../Images/Hamburger.png", "burgersPlace");
 
-
-    legend.innerHTML = burger.size;
-    h3.innerHTML = burger.name;
-    span.innerHTML = "<img src='../Images/Hamburger.png' alt='Hamburger'>";
-    div.className = "price";
-    div.id = burger.dayOfTheWeek;
-
-    document.getElementById("burgersPlace").appendChild(article);
-    article.appendChild(fieldset);
-    fieldset.appendChild(legend);
-    fieldset.appendChild(h3);
-    fieldset.appendChild(span);
-    fieldset.appendChild(div);
+//Uppgift 2
+function Product(name, size, price, dayOfTheWeek) {
+    this.name = name;
+    this.size = size;
+    this.price = price;
+    this.dayOfTheWeek = dayOfTheWeek;
 }
 
+//Uppgift 3
+var mondayDrink = new Product("Monday Drink", "Big", 6.30,"Monday");
+var tuesdayDrink = new Product("Tuesday Drink", "Big", 6.33,"Tuesday");
+var wednesdayDrink = new Product("Wednesday Drink", "Small", 3.90,"Wednesday");
+var thursdayDrink = new Product("Thursday Drink", "Medium", 5.75,"Thursday");
+var fridayDrink = new Product("Friday Drink", "Big", 5.90,"Friday");
+var saturdayDrink = new Product("Saturday Drink", "Medium", 4.75,"Monday");
+var sundayDrink = new Product("Sunday Drink", "Big", 5.75, "Sunday");
+
+var drinks = [mondayDrink, tuesdayDrink, wednesdayDrink, thursdayDrink, fridayDrink, saturdayDrink, sundayDrink];
+
+addToPage(drinks, "~/../Images/Drink.png", "drinksPlace");
+
+//Uppgigt 4
+var mondayPizza  = new Product("Monday Pizza", "Big", 16.30, "Monday");
+var tuesdayPizza = new Product("Tuesday Pizza", "Big", 16.33, "Tuesday");
+var wednesdayPizza = new Product("Wednesday Pizza", "Small", 13.90, "Wednesday");
+var thursdayPizza = new Product("Thursday Pizza", "Medium", 15.75, "Thursday");
+var fridayPizza = new Product("Friday Pizza", "Big", 15.90, "Friday");
+var saturdayPizza = new Product("Saturday Pizza", "Medium", 14.75, "Monday");
+var sundayPizza = new Product("Sunday Pizza", "Big", 15.75, "Sunday");
+
+var pizzas = [mondayPizza, tuesdayPizza, wednesdayPizza, thursdayPizza, fridayPizza, saturdayPizza, sundayPizza];
+
+addToPage(pizzas, "~/../Images/Pizza.png", "pizzaPlace");
 
 
+function addToPage(arrayOfObjects, imageURL, divID) {
+    for (var i = 0; i < arrayOfObjects.length; i++) {
 
-//<article>
-//        <fieldset>
-//            <legend>Monday Burger</legend>
-//            <h3>Pepper burger</h3>
-//            <span></span>
-//            <div class="price" id="monday">19.90</div>
-//        </fieldset>
-//    </article>
+        var article = document.createElement("article");
+        var fieldset = document.createElement("fieldset");
+        var legend = document.createElement("legend");
+        var h3 = document.createElement("h3");
+        var span = document.createElement("span");
+        var div = document.createElement("div");
+
+
+        legend.innerHTML = arrayOfObjects[i].size;
+        h3.innerHTML = arrayOfObjects[i].name;
+        span.innerHTML = "<img src='" + imageURL + "' alt='Drink'>";
+        div.className = "price";
+        div.innerHTML = arrayOfObjects[i].price;
+
+        document.getElementById(divID).appendChild(article);
+        article.appendChild(fieldset);
+        fieldset.appendChild(legend);
+        fieldset.appendChild(h3);
+        fieldset.appendChild(span);
+        fieldset.appendChild(div);
+    }
+}
