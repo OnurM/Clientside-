@@ -20,7 +20,7 @@ function search() {
 
         $.each(data, function (key, value) {
             if ((value.name.search(regexSearchValue) !== -1) && (value.category.search(filteredCategory) !== -1) || (value.about.search(regexSearchValue) !== -1) && (value.category.search(filteredCategory) !== -1)) {
-                searchResult += "<li> " + "<p>" + value.name + "<strong>" + value.about + "</strong> </p>" + "<img src='~/../Images/" + value.url_image + "' alt='" + value.name + "' > </li>";
+                searchResult += "<li> <p>" + value.name + " <strong>" + value.about + "</strong> </p>" + "<img src='~/../Images/" + value.url_image + "' alt='" + value.name + "' > </li>";
             }
         });
 
