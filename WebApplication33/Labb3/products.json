@@ -1,0 +1,150 @@
+﻿[
+  {
+    "name": "Vesuvio",
+    "about": "Pizza med skinka ost och tomat. Enkel men god",
+    "price": 100,
+    "category": "Pizza",
+    "url_image": "Pizza.png"
+  },
+  {
+    "name": "Kebabpizza",
+    "about": "En pizza med kebabkött. Extra god med vitlökssås och feferoni",
+    "price": 110,
+    "category": "Pizza",
+    "url_image": "Pizza.png"
+  },
+  {
+    "name": "Calzone",
+    "about": "Inbakad pizza med tomat ost och skinka. Supergott.",
+    "price": 100,
+    "category": "Pizza",
+    "url_image": "Pizza.png"
+  },
+  {
+    "name": "Capricciosa",
+    "about": "Pizza med tomat ost och svamp. Stark sås passar bra. Vegetarisk",
+    "price": 90,
+    "category": "Pizza",
+    "url_image": "Pizza.png"
+  },
+  {
+    "name": "Margarita",
+    "about": "Pizza med endast tomat och ost. Vegetarisk",
+    "price": 85,
+    "category": "Pizza",
+    "url_image": "Pizza.png"
+
+  },
+
+  {
+    "name": "Vegetariana",
+    "about": "En vegetarisk sub. Innehåller sallad tomat och gurka",
+    "price": 65,
+    "category": "Subs",
+    "url_image": "subs.PNG"
+  },
+  {
+    "name": "Meat Loaf Sub",
+    "about": "En sub som innehåller köttfärslimpa. Dressing finns också.",
+    "price": 62,
+    "category": "Subs",
+    "url_image": "subs.PNG"
+  },
+  {
+    "name": "Cheese and Olive Sub",
+    "about": "En sub som innehåller oliver och ost. Samt sallad. Vegetarisk",
+    "price": 75,
+    "category": "Subs",
+    "url_image": "subs.PNG"
+  },
+  {
+    "name": "Bacon and Cheese",
+    "about": "En sub som innehåller ost och bacon. Extra god med BBQ-sås.",
+    "price": 55,
+    "category": "Subs",
+    "url_image": "subs.PNG"
+  },
+  {
+    "name": "Tomato Cheese Ham",
+    "about": "En sub som innehåller tomat ost och skinka",
+    "price": 65,
+    "category": "Subs",
+    "url_image": "subs.PNG"
+  },
+
+  {
+    "name": "Long Island Ice Tea",
+    "about": "Fin och god dricka i ett högt glas",
+    "price": 65,
+    "category": "Dricka",
+    "url_image": "Drink.png"
+  },
+  {
+    "name": "Staropramen",
+    "about": "Öl från Tjeckien. Speciell för Prag- Den är gjord av vattnet från floden som rinner genom staden.",
+    "price": 45,
+    "category": "Dricka",
+    "url_image": "Drink.png"
+
+  },
+  {
+    "name": "Coca Cola",
+    "about": "God läsk -speciellt med is i på sommaren",
+    "price": 25,
+    "category": "Dricka",
+    "url_image": "Drink.png"
+
+  },
+  {
+    "name": "Fanta Exotic",
+    "about": "Smakfull läsk men inte alls törstsläckande.",
+    "price": 25,
+    "category": "Dricka",
+    "url_image": "Drink.png"
+  },
+  {
+    "name": "Cafe Latte",
+    "about": "Kaffe med ångad mjölk. Supergott.",
+    "price": 55,
+    "category": "Dricka",
+    "url_image": "Drink.png"
+  },
+
+
+  {
+    "name": "Cheese Burger",
+    "about": "Jättegod cheeseburgare med cheddarost och ketchup",
+    "price": 80,
+    "category": "Hamburgare",
+    "url_image": "Hamburger.png"
+
+  },
+  {
+    "name": "Happy Burger",
+    "about": "En glad hamburgare som innehåller ketchup sallad och dressing",
+    "price": 85,
+    "category": "Hamburgare",
+    "url_image": "Hamburger.png"
+  },
+  {
+    "name": "Sad Burger",
+    "about": "En ledsen hamburgare som bara innehåller kött.",
+    "price": 80,
+    "category": "Hamburgare",
+    "url_image": "Hamburger.png"
+  },
+  {
+    "name": "Awesome Burger",
+    "about": "En hamburgare man inte kan bli besviken av!",
+    "price": 85,
+    "category": "Hamburgare",
+    "url_image": "Hamburger.png"
+  },
+  {
+    "name": "Old Burger",
+    "about": "En gammal hamburgare som ingen vill ha.",
+    "price": 45,
+    "category": "Hamburgare",
+    "url_image": "Hamburger.png"
+  }
+]
