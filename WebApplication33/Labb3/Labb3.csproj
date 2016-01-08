@@ -81,7 +81,7 @@
     <Content Include="Images\Hamburger.png" />
     <Content Include="Images\Pizza.png" />
     <Content Include="Images\Subs.PNG" />
-    <Content Include="Pages\index.html" />
+    <Content Include="index.html" />
     <Content Include="Scripts\index.js" />
     <None Include="Scripts\jquery-2.1.0.intellisense.js" />
     <None Include="Scripts\jquery-2.1.0-vsdoc.js" />
@@ -93,7 +93,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\Styles\" />
+    <Folder Include="Styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
